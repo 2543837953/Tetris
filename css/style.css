@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showGame{
+    /*width:411px;*/
+    /*height: 821px;*/
+    /*border: 1px solid #ccc;*/
+}
+#game{
+    display: flex;
+}
+.info{
+    width: 200px;
+    height: 821px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: unset;
+}
+#showRandomCell{
+    /*width: 160px;*/
+    /*height: 160px;*/
+    /*border: 1px solid red;*/
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    color: #888;
+    margin: 20px 0;
+}
+.btn *{
+    border: 1px solid #ccc;
+    background: transparent;
+    padding: 5px 10px;
+    outline: unset;
+    color: #888;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.block{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box #rest{
+    border: 1px solid #ccc;
+    background: transparent;
+    padding: 5px 10px;
+    outline: unset;
+    color: #888;
+    cursor: pointer;
+}
+h1{
+    color: red;
+}

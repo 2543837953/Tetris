@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game">
+        <canvas id="showGame"></canvas>
+        <div class="info">
+            <div class="showRandomCell">
+                <canvas id="showRandomCell"></canvas>
+            </div>
+            <div class="score">
+                总分: <span id="score">0</span>
+            </div>
+            <div class="btn">
+                <button class="startGame">开始游戏</button>
+                <button class="stopGame">暂停游戏</button>
+                <button class="stopMusic">暂停音乐</button>
+                <button class="startMusic">播放音乐</button>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <div class="box">
+            <h1>游戏结束</h1>
+            <button id="rest">重新开始</button>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
